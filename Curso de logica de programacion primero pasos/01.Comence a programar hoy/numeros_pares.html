@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA PARA IMPRIMIR NUMEROS DEL 1 AL 100</h1>
+
+<script>
+    function saltarLinea() {
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        saltarLinea();
+    }
+
+    var numeroPar = 2;
+
+    while (numeroPar <= 100) {
+        imprimir(numeroPar);
+        numeroPar+=2;
+    }
+    imprimir ("fin");
+</script>
